@@ -170,67 +170,51 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
+    title: ¡Diseñamos tus ideas!
+    text: Calidad y cumplimiento
     button: Ver más
     buttonlink: "#servicios"
 
   services:
     title: "Servicios"
-    text: "Lorem ipsum"
+    text: "Conozca nuestros servicios"
     section: servicios
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+      - title: "Metalmecánica"
+        desc: "Transformación de tubería y alambre de cold rolled para hacer realidad sus proyectos."
+        icon: fas fa-gear #find more at https://fontawesome.com/icons
+      - title: "Termoformado y plásticos"
+        desc: "Transformación de poliestireno, acrílico y polipropileno a través de procesos por calor que complementan los proyectos desarrollados para nuestros clientes."
+        icon: fas fa-puzzle-piece
+      - title: "Electrónica"
+        desc: "Instalamos los sistemas necesarios para apoyar los proyectos que nos encomienden."
+        icon: fab fa-gears
+      - title: "Diseño"
+        desc: "Diseño Industrial, de interiores y P.O.P."
+        icon: fab fa-puzzle-piece
 
   portfolio:
     title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Conoce nuestros proyectos."
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
   timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
     section: cronologia
     # left is the default
     #start_align: "left"
+    text: "Conoce nuestra historia"
     events:
       - title: "Nuestro Humilde Comienzo"
         year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+    end: ""
 
   about:
     title: "Sobre nosotros"
     text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "Nuestra empresa es un proveedor integral de servicios de metalmecánica, termoformado y plásticos, electrónica y diseño, ofreciendo soluciones personalizadas de alta calidad que se adaptan a las necesidades específicas de cada cliente. Con una amplia experiencia en la industria y un equipo altamente capacitado, podemos diseñar y fabricar piezas y estructuras de acero, aluminio y otros materiales, producir piezas de plástico personalizadas, ofrecer servicios de diseño electrónico y mecánico, fabricación de prototipos y soluciones de automatización personalizadas para diferentes industrias."
     section: nosotros
 
   clients:
@@ -253,11 +237,11 @@ es: &DEFAULT_ES
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "Tenemos a los mejores profesionales."
+    subtext: En nuestra empresa, contamos con los mejores profesionales en cada área de servicio que ofrecemos. Nuestro equipo está altamente capacitado y comprometido en brindar soluciones personalizadas y de alta calidad que superen las expectativas de nuestros clientes. Trabajamos en equipo para asegurarnos de entender las necesidades de nuestros clientes y ofrecer soluciones innovadoras y eficientes.
     section: equipo
     people:
-      - name: "Kay Garland"
+      - name: "Robinson Ospina"
         role: "Lead Designer"
         image: assets/img/team/500x500.jpg
         social:
@@ -267,7 +251,7 @@ es: &DEFAULT_ES
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
+      - name: "Robinson Ospina"
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
         social:
@@ -277,7 +261,7 @@ es: &DEFAULT_ES
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
+      - name: "Robinson Ospina"
         role: "Lead Developer"
         image: assets/img/team/500x500.jpg
         social:
@@ -290,7 +274,7 @@ es: &DEFAULT_ES
 
   contact:
     title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
+    text: "Contacte con nosotros"
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."
@@ -312,8 +296,6 @@ es: &DEFAULT_ES
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
 es-ES:

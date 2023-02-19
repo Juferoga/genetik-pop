@@ -2,36 +2,37 @@
 layout: page
 title: Privacy Policy
 ---
+
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
+	<h2 class="section-heading text-uppercase">Política de privacidad</h2>
 </div>
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+Esta Política de privacidad describe cómo se recopila, utiliza y comparte su información personal cuando visita {{ site.title }} (el "Sitio").
 
-**PERSONAL INFORMATION WE COLLECT**
+**INFORMACIÓN PERSONAL QUE RECOPILAMOS**
 
 {% if site.analytics.google %}
 
-Automatically Collected (Google Analytics):
+Automáticamente recopilada (Google Analytics):
 
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
+Cuando visita el Sitio, recibimos automáticamente información sobre su dispositivo desde su navegador, como su dirección IP. A medida que navega por el Sitio, también recopilamos información sobre cómo interactúa con el Sitio. Nos referimos a esta información recopilada automáticamente como "Información del dispositivo".
 
-We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
+Recopilamos información del dispositivo utilizando cookies. "Cookies" son archivos de datos que se colocan en su dispositivo. Para obtener más información sobre las cookies y cómo desactivarlas, visite http://www.allaboutcookies.org.
 
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
+Hacemos esto usando Google Analytics: https://www.google.com/intl/es/policies/privacy/.
 
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
+Puede optar por no participar en Google Analytics aquí: https://tools.google.com/dlpage/gaoptout.
 
 {% else %}
 
-We do not collect any data about you or use any cookies.
+No recopilamos ningún dato sobre usted ni utilizamos cookies.
 
 {% endif %}
 
-**CHANGES**
+**CAMBIOS**
 
-We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
+Podemos actualizar esta política de privacidad de vez en cuando por motivos personales, operativos, legales o reglamentarios.
 
-**CONTACT US**
+**CONTÁCTENOS**
 
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+Para obtener más información sobre nuestras prácticas de privacidad o si tiene preguntas, contáctenos por correo electrónico en <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
