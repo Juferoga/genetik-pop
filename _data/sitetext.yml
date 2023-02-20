@@ -182,16 +182,16 @@ es: &DEFAULT_ES
     list:
       - title: "Metalmecánica"
         desc: "Transformación de tubería y alambre de cold rolled para hacer realidad sus proyectos."
-        icon: fas fa-gear #find more at https://fontawesome.com/icons
+        icon: fas fa-compass #find more at https://fontawesome.com/icons
       - title: "Termoformado y plásticos"
         desc: "Transformación de poliestireno, acrílico y polipropileno a través de procesos por calor que complementan los proyectos desarrollados para nuestros clientes."
         icon: fas fa-puzzle-piece
       - title: "Electrónica"
         desc: "Instalamos los sistemas necesarios para apoyar los proyectos que nos encomienden."
-        icon: fab fa-gears
+        icon: fas fa-star
       - title: "Diseño"
         desc: "Diseño Industrial, de interiores y P.O.P."
-        icon: fab fa-puzzle-piece
+        icon: fas fa-cloud
 
   portfolio:
     title: "Portafolio"
@@ -206,10 +206,28 @@ es: &DEFAULT_ES
     text: "Conoce nuestra historia"
     events:
       - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
+        year: "2014"
+        desc: "Empezamos realizando material pop, y muchos más proyectos!"
         image: assets/img/timeline/1.jpg
         alt:
-    end: ""
+      - title: "Una Idea crece"
+        year: "Marzo 2014"
+        desc: "Con nuevos proyectos fuimos avanzando y creciendo profesionalmente!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Grandes proyectos"
+        year: "2017"
+        desc: "Proyecto festival Stereo Picnic."
+        image: assets/img/timeline/3.jpg
+        alt: 
+      - title: "Muchos más proyectos"
+        year: "2017-2022"
+        desc: "Crecimos y realizamos más proyectos de toda indole."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "¡Se parte <br> de Nuestra <br> Historia!"
 
   about:
     title: "Sobre nosotros"
@@ -222,17 +240,17 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Atlantiz plaza"
+        url: #
         logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Natuchips"
+        url: #
         logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Maloka"
+        url: #
         logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Estereo picnic"
+        url: #
         logo: assets/img/clients/creative-market.jpg
 
   team:
@@ -242,28 +260,8 @@ es: &DEFAULT_ES
     section: equipo
     people:
       - name: "Robinson Ospina"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Robinson Ospina"
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Robinson Ospina"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
